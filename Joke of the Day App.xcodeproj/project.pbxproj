@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5670446924DB623B00AF23C6 /* CategoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670446824DB623B00AF23C6 /* CategoryClass.swift */; };
+		5670449E24DCAD8C00AF23C6 /* JokeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670449D24DCAD8C00AF23C6 /* JokeDetailViewController.swift */; };
+		569052EE24DB457C00F0846F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569052ED24DB457C00F0846F /* AppDelegate.swift */; };
+		569052F024DB457C00F0846F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569052EF24DB457C00F0846F /* SceneDelegate.swift */; };
+		569052F524DB457C00F0846F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569052F324DB457C00F0846F /* Main.storyboard */; };
+		569052F724DB458000F0846F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569052F624DB458000F0846F /* Assets.xcassets */; };
+		569052FA24DB458000F0846F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569052F824DB458000F0846F /* LaunchScreen.storyboard */; };
+		5690530D24DB4D3800F0846F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690530C24DB4D3800F0846F /* Joke.swift */; };
+		5690530F24DB4FE700F0846F /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690530E24DB4FE700F0846F /* JokeTableViewController.swift */; };
+		5690531124DB521900F0846F /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690531024DB521900F0846F /* JokeController.swift */; };
+		5690531324DB52C800F0846F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690531224DB52C800F0846F /* Category.swift */; };
+		5690531524DB569400F0846F /* JokeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690531424DB569400F0846F /* JokeError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5670446824DB623B00AF23C6 /* CategoryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryClass.swift; sourceTree = "<group>"; };
+		5670449D24DCAD8C00AF23C6 /* JokeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetailViewController.swift; sourceTree = "<group>"; };
+		569052EA24DB457C00F0846F /* Joke of the Day App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joke of the Day App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		569052ED24DB457C00F0846F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		569052EF24DB457C00F0846F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		569052F424DB457C00F0846F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		569052F624DB458000F0846F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569052F924DB458000F0846F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		569052FB24DB458000F0846F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5690530C24DB4D3800F0846F /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		5690530E24DB4FE700F0846F /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		5690531024DB521900F0846F /* JokeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
+		5690531224DB52C800F0846F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5690531424DB569400F0846F /* JokeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569052E724DB457C00F0846F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569052E124DB457C00F0846F = {
+			isa = PBXGroup;
+			children = (
+				569052EC24DB457C00F0846F /* Joke of the Day App */,
+				569052EB24DB457C00F0846F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		569052EB24DB457C00F0846F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569052EA24DB457C00F0846F /* Joke of the Day App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569052EC24DB457C00F0846F /* Joke of the Day App */ = {
+			isa = PBXGroup;
+			children = (
+				5690530924DB4ABB00F0846F /* Helpers and Extensions */,
+				5690530724DB45F000F0846F /* Views */,
+				5690530324DB45D500F0846F /* Controllers */,
+				5690530224DB45CE00F0846F /* Models */,
+				5690530124DB45AA00F0846F /* Resources */,
+			);
+			path = "Joke of the Day App";
+			sourceTree = "<group>";
+		};
+		5690530124DB45AA00F0846F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				569052ED24DB457C00F0846F /* AppDelegate.swift */,
+				569052EF24DB457C00F0846F /* SceneDelegate.swift */,
+				569052F624DB458000F0846F /* Assets.xcassets */,
+				569052F824DB458000F0846F /* LaunchScreen.storyboard */,
+				569052FB24DB458000F0846F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5690530224DB45CE00F0846F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5690530C24DB4D3800F0846F /* Joke.swift */,
+				5670446824DB623B00AF23C6 /* CategoryClass.swift */,
+				5690531224DB52C800F0846F /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5690530324DB45D500F0846F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5690530524DB45E000F0846F /* Model Controllers */,
+				5690530424DB45DB00F0846F /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5690530424DB45DB00F0846F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5690530E24DB4FE700F0846F /* JokeTableViewController.swift */,
+				5670449D24DCAD8C00AF23C6 /* JokeDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5690530524DB45E000F0846F /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5690531024DB521900F0846F /* JokeController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		5690530724DB45F000F0846F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5690530824DB45F500F0846F /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5690530824DB45F500F0846F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				569052F324DB457C00F0846F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5690530924DB4ABB00F0846F /* Helpers and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5690531424DB569400F0846F /* JokeError.swift */,
+			);
+			path = "Helpers and Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		569052E924DB457C00F0846F /* Joke of the Day App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569052FE24DB458000F0846F /* Build configuration list for PBXNativeTarget "Joke of the Day App" */;
+			buildPhases = (
+				569052E624DB457C00F0846F /* Sources */,
+				569052E724DB457C00F0846F /* Frameworks */,
+				569052E824DB457C00F0846F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Joke of the Day App";
+			productName = "Joke of the Day App";
+			productReference = 569052EA24DB457C00F0846F /* Joke of the Day App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		569052E224DB457C00F0846F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = DevMtn;
+				TargetAttributes = {
+					569052E924DB457C00F0846F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 569052E524DB457C00F0846F /* Build configuration list for PBXProject "Joke of the Day App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 569052E124DB457C00F0846F;
+			productRefGroup = 569052EB24DB457C00F0846F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569052E924DB457C00F0846F /* Joke of the Day App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569052E824DB457C00F0846F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569052FA24DB458000F0846F /* LaunchScreen.storyboard in Resources */,
+				569052F724DB458000F0846F /* Assets.xcassets in Resources */,
+				569052F524DB457C00F0846F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569052E624DB457C00F0846F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5690530F24DB4FE700F0846F /* JokeTableViewController.swift in Sources */,
+				569052EE24DB457C00F0846F /* AppDelegate.swift in Sources */,
+				5670449E24DCAD8C00AF23C6 /* JokeDetailViewController.swift in Sources */,
+				5670446924DB623B00AF23C6 /* CategoryClass.swift in Sources */,
+				5690531124DB521900F0846F /* JokeController.swift in Sources */,
+				569052F024DB457C00F0846F /* SceneDelegate.swift in Sources */,
+				5690531524DB569400F0846F /* JokeError.swift in Sources */,
+				5690530D24DB4D3800F0846F /* Joke.swift in Sources */,
+				5690531324DB52C800F0846F /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		569052F324DB457C00F0846F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569052F424DB457C00F0846F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		569052F824DB458000F0846F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569052F924DB458000F0846F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		569052FC24DB458000F0846F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		569052FD24DB458000F0846F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		569052FF24DB458000F0846F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joke of the Day App/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewmiller.Joke-of-the-Day-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5690530024DB458000F0846F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joke of the Day App/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drewmiller.Joke-of-the-Day-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569052E524DB457C00F0846F /* Build configuration list for PBXProject "Joke of the Day App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569052FC24DB458000F0846F /* Debug */,
+				569052FD24DB458000F0846F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569052FE24DB458000F0846F /* Build configuration list for PBXNativeTarget "Joke of the Day App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569052FF24DB458000F0846F /* Debug */,
+				5690530024DB458000F0846F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569052E224DB457C00F0846F /* Project object */;
+}
